@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: linear-gradient(to bottom right, #eff3f3, #429fe1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+h1 {
+    width: 100%;
+    background-color: #429fe1;
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    bottom: 55px;
+    padding: 15px;
+    text-shadow: 0px 10px 10px rgb(10, 10, 10);
+}
+
+.wave{
+    box-shadow: 0px 10px 10px rgb(10, 10, 10);
+
+}
+
+.contenedor {
+    width: 200%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-image: url(https://img.freepik.com/foto-gratis/patron-lupa-sobre-fondo-azul-claro-render-3d-imagen-panoramica_295303-2822.jpg?size=626&ext=jpg);
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px rgb(37, 3, 53);
+    border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+    .contenedor {
+        width: 90%;
+    }
+}
+
+h2,
+p {
+    font-size: 20px;
+    color: whitesmoke
+}
+
+h2 span,
+p span {
+    color: whitesmoke;
+}
+
+img {
+    border-radius: 10%;
+    width: 20%;
+    height: 20%;
+}
+
+.boton {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border: #023f60 12px;
+}
+
+button {
+    border: none;
+    background-color: #429fe1;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 400ms;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.icono {
+    flex: auto;
+}
+
+#searchInput {
+    width: 20%;
+    height: 150%;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    border-radius: 8px;
+    border: 20px;
+
+}
+
+#searchButton {
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    bottom: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #429fe1;
+    bottom: 10px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-container a {
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .footer-container a:hover {
+    color: #0077b5;
+  }
+  
+  .fa-linkedin {
+    color: blue;
+  }
+  
+  .fa-github {
+    color: black;
+  }

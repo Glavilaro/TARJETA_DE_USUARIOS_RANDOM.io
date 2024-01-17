@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-9zQsZvz+JyJf+8jQT+JL3r+UvK5O9t0wJz5+Lzv6Xv1zQzJgWdZzjJQJz0zvJvJk8J+eYz3zJl1zg0x8JQ6Gw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Visualización de Usuarios random</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Buscador de Personas</h1>
+
+            <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150"
+                    preserveAspectRatio="none" style="height: 150%; width: 150%;">
+                    <path d="M0.00,50.10 C150.00,150.33 271.29,-50.10 500.00,50.10 L500.00,0.00 L0.00,0.00 Z"
+                        style="stroke: none; fill:#429fe1"></path>
+
+                </svg>
+
+            </div>
+
+            <input type="text" id="searchInput" placeholder="Buscar...">
+            <button id="searchButton">Buscar</button>
+            <ul id="resultsList"></ul>
+        </div>
+
+        <div class="contenedor">
+            <img src="#" alt="perfil de usuarios" id="foto">
+            <h2>Nombre : <span id="nombre"></span></h2>
+            <h2>Apellido : <span id="apellido"></span></h2>
+            <div>
+                <p>correo:<span id="correo"></span></p>
+                <p>Telefono: <span id="telefono"></span></p>
+                <p>Nacionalidad:<span id="nacionalidad"></span></p>
+                <p>sexo:<span id="sexo"></span></p>
+            </div>
+        </div>
+        <div class="boton">
+            <button id="boton">Crear Usuario</button>
+        </div>
+
+
+
+
+
+    </header>
+</body>
+<footer>
+    <div class="footer-container">
+        <a href="https://www.linkedin.com/in/gladysvilaro622/" target="_blank"><i
+                class="fab fa-linkedin"></i>linkedin</a>
+        <a href="https://github.com/Glavilaro" target="_blank"><i class="fab fa-github"></i>github</a>
+        <p>&copy; 2024 GlaVilaro</p>
+    </div>
+</footer>
+<script src="App.js"></script>
+<script src="results.js"></script>
+
+
+
+</html>
